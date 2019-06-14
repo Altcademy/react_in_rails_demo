@@ -12,7 +12,6 @@ const customConfig = {
 
 environment.config.merge(customConfig);
 
-const WebpackAssetsManifest = require('webpack-assets-manifest');
 environment.splitChunks()
 
 module.exports = environment
